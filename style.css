@@ -1,0 +1,23 @@
+#grid{
+  display: grid;
+  grid-template-columns:repeat(16,40px);
+  justify-items: center;
+}
+.gridBlock{;
+  background-color: black;
+  border-color: black;
+  border-style: none;
+}
+#reset{
+  position:absolute;
+  left:0;
+  top:0;
+  display:inline-block;
+  margin:16px;
+  text-align:center;
+  font-size:13px;
+  font-weight:bold;
+}
+#reset:hover {
+  text-decoration:underline;
+}
